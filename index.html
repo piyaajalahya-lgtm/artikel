@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunung Bromo</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #5d4037, #a1887f);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        nav {
+            background-color: #3e2723;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc80;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .gambar {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #5d4037;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            flex: 1;
+            background-color: #efebe9;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .info-box h3 {
+            color: #5d4037;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-left: 5px solid #ff9800;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            .info {
+                flex-direction: column;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="letter-spacing: 3px;">GUNUNG BROMO</h1>
+        <p>Salah satu wisata alam yang terkenal di Jawa Timur</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#keindahan">Keindahan</a>
+        <a href="#kegiatan">Kegiatan</a>
+        <a href="#kesimpulan">Kesimpulan</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card" id="tentang">
+            <h2>Tentang Gunung Bromo</h2>
+
+            <img src="c:\Users\User\Documents\m7.css\bromo.jpg" alt="Gunung Bromo" class="gambar">
+
+            <p>
+                Gunung Bromo merupakan salah satu tempat wisata yang terkenal
+                di Jawa Timur. Gunung ini berada di kawasan Taman Nasional
+                Bromo Tengger Semeru.
+            </p>
+
+            <p>
+                Bromo banyak dikunjungi wisatawan karena memiliki pemandangan
+                alam yang indah. Suasana di sekitar gunung juga terasa sejuk,
+                terutama pada pagi hari.
+            </p>
+
+            <div class="info">
+                <div class="info-box">
+                    <h3>Lokasi</h3>
+                    <p>Jawa Timur, Indonesia</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>Ketinggian</h3>
+                    <p>Sekitar 2.329 mdpl</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>Daya Tarik</h3>
+                    <p>Sunrise dan Lautan Pasir</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="keindahan">
+            <h2>Keindahan Gunung Bromo</h2>
+
+            <p>
+                Salah satu hal yang membuat Bromo menarik adalah pemandangan
+                matahari terbitnya. Banyak wisatawan datang pagi-pagi untuk
+                melihat sunrise dari tempat yang lebih tinggi.
+            </p>
+
+            <div class="highlight">
+                <strong>Sedikit tentang Bromo:</strong>
+                <p>
+                    Selain gunung, kawasan Bromo juga memiliki lautan pasir
+                    yang luas dan pemandangan pegunungan yang menarik.
+                </p>
+            </div>
+        </div>
+
+        <div class="card" id="kegiatan">
+            <h2>Kegiatan yang Bisa Dilakukan</h2>
+
+            <ul>
+                <li>Melihat matahari terbit</li>
+                <li>Menikmati pemandangan Gunung Bromo</li>
+                <li>Berjalan di kawasan lautan pasir</li>
+                <li>Mengunjungi kawah Bromo</li>
+                <li>Mengabadikan pemandangan dengan foto</li>
+            </ul>
+        </div>
+
+        <div class="card" id="kesimpulan">
+            <h2>Kesimpulan</h2>
+
+            <p>
+                Gunung Bromo merupakan salah satu wisata alam yang menarik
+                untuk dikunjungi. Keindahan sunrise, lautan pasir, dan
+                pemandangan pegunungan menjadi daya tarik utama Bromo.
+                Oleh karena itu, Gunung Bromo menjadi salah satu tempat
+                wisata yang terkenal di Indonesia.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Website Gunung Bromo | Tugas HTML</p>
+    </footer>
+
+</body>
+</html>
